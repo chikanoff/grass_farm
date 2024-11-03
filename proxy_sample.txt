@@ -1,0 +1,10 @@
+socks5://username1:password@ip:port
+socks5://username2:password@ip:port
+socks5://username3:password@ip:port
+socks5://username4:password@ip:port
+socks5://username5:password@ip:port
+socks5://username6:password@ip:port
+socks5://username7:password@ip:port
+socks5://username8:password@ip:port
+socks5://username9:password@ip:port
+socks5://username0:password@ip:port

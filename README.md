@@ -13,7 +13,8 @@ get your userId (F12 on app.getgrass.io after auth and `localStorage.getItem('us
 
 ### 3. Create proxy.txt file
 each proxy on new line
-socks5://username:password@ip:port
+
+check that you have more proxies than users
 
 ### 4. Run script
 > ```bash
