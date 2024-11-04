@@ -34,6 +34,10 @@ async def assign_proxies_to_accounts(users, all_proxies):
     unassigned_proxies = [proxy for proxy in all_proxies if proxy not in assigned_proxies]
     unassigned_users = [user for user in users if user not in assignments]
 
+    if not unassigned_proxies or not unassigned_users:
+        logger.info("All proxies are assigned or not unassigned users")
+        return assignments
+
     if len(unassigned_proxies) < len(unassigned_users):
         raise ValueError("Not enough proxy for all users")
     
